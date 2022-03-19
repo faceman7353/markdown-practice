@@ -162,5 +162,40 @@ ___
 
 
 
+git사용법
+git-hub 저장소에 저장하는 방법
+
+현재 작성한 프로젝트를 git을통해 버전 관리하겠다 라는의미.
+
+> git init
+
+현재 상태 확인
+
+> git status
+
+작업한 내용을 버전 추가
+
+> git add .
+
+상태 확인 
+
+> git status
+
+이제 버전 만들기 시작
+
+> git commit -m 'README.md 생성'
+
+이제 막 저장소를 만들었으면 저장소를 연결해야한다.
+
+>git remote add origin https://github.com/faceman7353/markdown-practice.git
+
+연결되었으면 업로드
+
+> git push origin master
+
+
+
+
+
 
 
