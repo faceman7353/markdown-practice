@@ -199,7 +199,56 @@ ___
 
 ```
 
+***
 
 
 
 
+
+# Node.js
+
+```plaintext
+
+Node.js는 Chrome V8 Javascript 엔진으로 만들어진(빌드된) Javascript 런타임
+런타임 - 어떤 프로그래밍 언어가 동작하는 환경.
+
+javascript  가 동작할수있는 환경
+javascript는 프로그래밍 언어
+
+ 
+Node.js가 깔린 컴퓨터
+Chrome 같은 웹 브라우저
+
+
+Node.js - 웹페이지를 개발하기 위해서 약간의 도움을 받기 위한 프로그램5ㅅ
+
+웹페이지를 개발할시 html, css, javasctip만으로 개발할수있는데 비효율적
+그래서 개인의 컴퓨터에  node.js 를 포함한 라이브러리를 설치후 html,css,javascript 로 변환하여
+사용하여야한다.
+변환작업을 만들어주어야한다.
+
+```
+
+# NVM(Node.js version Manaver - 내가 원할때 언제든 버전을 바꾸어 쓸수있는 기능)
+
+***
+
+```plaintext
+
+nvm 윈도우버전
+구글 검색창 
+nvm-windows검색
+
+첫번째 나오는 링크 클릭
+
+조금내려가면 Download Now 클릭
+
+nvm-setup.zip 다운로드
+
+다운 및 설치 완료후
+
+터미널에서 실행해봄.
+- nvm --version
+
+
+```
