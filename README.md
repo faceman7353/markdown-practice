@@ -277,3 +277,44 @@ npm은 생태계임.
 ```
 
 
+# npm
+
+```plaintext
+
+node.js를 설치 했으니 이제 npm을 사용할수있다.
+npm도 여러 라이브러리를 설치해야만 그 안의 생태계를 사용가능하기때문에 
+라이브러리를 설치해보자
+
+>npm init -y
+생태계 확인 됨.
+
+>npm install pacel-bundler -D    <---------pacel-bundler이것은 라이브러리 중하나.
+"devDependencies": {
+    "parcel-bundler": "^1.12.5"
+
+
+>npm install  lodash   <------------ lodash도 라이브러리
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
+
+-D를 붙이는것과 안붙이는것의 차이는 
+
+-D를 붙이는것 - 개발용 의존성 패키지 설치
+==>개발할때만 필요하고 웹브라우저에서 사용할때는 필요하지 않다는 개념
+(-D , --sava-dev를 축약)
+
+-D를 붙이지 않는것 - 일반 의존성 설치
+==>웹 브라우저에서 동작할수도 잇다는것을 전제함,.
+
+그렇게 구분하는것을 의미
+
+
+
+만약 node_modules폴더를 지웠더라도 
+내부에서 
+>npm install 또는 npm i 라고 치면 다시 설치되어 나옴.
+
+```
