@@ -249,6 +249,31 @@ nvm-setup.zip 다운로드
 
 터미널에서 실행해봄.
 - nvm --version
+버전확인
 
+이제 nvm 터미널에서 설치 및 사용
+
+nvm install 16.14.2 (현재 최신 안정된 버전)
+nvm use 16.14.2  
+
+만약 exit:staus1 이라고 뜨면 터미널이나 vscode 를 관리자 권한으로 실행해서 다시 해보면 됨.
+
+이제 터미널에서 node를 사용할수있게됨.
+
+node --version
+> v 16.14.2
+
+만약 삭제를 할시
+
+nvm uninstall 버전
+
+NPM(node package manager)
+-전세계의 개발자들이 만든 다양한 기능(패키지 , 모듈)들을 관리
+npm은 생태계임.
+패키지 = 모듈 같다고 보면된다.
+ 
+ trade-off (상충관계)
 
 ```
+
+
